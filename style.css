@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+  body {
+        background: #8A2BE2
+}
+
+.nomes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px
+}
+
+.gato{
+    height: 72px
+}
+
+.titulos{
+    display: flex;
+    gap: 32px
+}
+
+.titulos{
+    font-family:'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid;
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoEscrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudoEscritoPrincipal{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #0000CD;
+}
+
+.segundoPrincipal{
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.botao{
+    background-color: #4F4F4F;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+
+.NerdFace{
+    height: 430px;
+}
+
+.conteudoSegundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
